@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    margin: 50px;
+    color: coral;
+}
+
+#esercizio{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.container-img{
+    margin: 20px;
+    width: 400px;
+    height: 205px;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid coral;
+
+}
+.container-img img{
+   max-width: 100%;
+}
+
