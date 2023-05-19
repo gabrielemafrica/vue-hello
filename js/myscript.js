@@ -33,28 +33,7 @@ function numeroCasuale(min, max) {
 }
 
 function nomeRandom() {
+    const nomi = ['Alessandro', 'Paolo', 'Giuseppe', 'Giulio', 'Giulia', 'Pino', 'Beppe', 'Ciccio', 'Luca', 'Frank'];
     const num = numeroCasuale(1, 10);
-
-    if (num === 1) {
-        return 'Alessandro';
-    } else if (num === 2){
-        return 'Paolo';
-    } else if (num === 3){
-        return 'Giuseppe';
-    } else if (num === 4){
-        return 'Giulio';
-    } else if (num === 5){
-        return 'Giulia';
-    } else if (num === 6){
-        return 'Pino';
-    } else if (num === 7){
-        return 'Beppe';
-    } else if (num === 8){
-        return 'Ciccio';
-    } else if (num === 9){
-        return 'Luca';
-    } else if (num === 10){
-        return 'Frank';
-    }
-
+    return nomi[num];
 }
