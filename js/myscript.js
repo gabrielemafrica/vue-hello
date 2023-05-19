@@ -34,6 +34,6 @@ function numeroCasuale(min, max) {
 
 function nomeRandom() {
     const nomi = ['Alessandro', 'Paolo', 'Giuseppe', 'Giulio', 'Giulia', 'Pino', 'Beppe', 'Ciccio', 'Luca', 'Frank'];
-    const num = numeroCasuale(1, 10);
+    const num = numeroCasuale(0, 9);
     return nomi[num];
 }
